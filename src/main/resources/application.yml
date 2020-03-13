@@ -1,0 +1,20 @@
+##Porta do servidor
+server:
+port: 8091
+
+##Configura��es rabbitmq
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: ysmarks
+    password: senha2020
+
+destinations:
+  queues: YsmarksQueue
+  
+rabbitmq:
+	queueName:ysmarks.queue
+	exchangeName:ysmarks-exchange
+	routinKey:ysmarks.routinkey
+    
